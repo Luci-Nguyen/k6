@@ -1,3 +1,11 @@
-const BASE_URL="https://jsonplaceholder.typicode.com/"
 
-export {BASE_URL}
+const BASE_URL = {
+    baseURL: 'https://reqres.in/api'
+
+}
+
+export const setHeader = {
+    "content-type": "application/json"
+}
+
+export { BASE_URL }
